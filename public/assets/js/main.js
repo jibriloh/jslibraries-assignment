@@ -3,7 +3,7 @@ new Glide('.glide', {
     autoplay: 2000, 
     animationDuration: 800, 
     keyboard: true,
-    hoverpause: true,
+    hoverpause: false,
  }).mount();
 
  
