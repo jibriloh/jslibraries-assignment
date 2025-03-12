@@ -1,0 +1,182 @@
+/* Header styling */
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0 5px 4px #26323814;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 0;
+}
+
+#nav a {
+    font-family: "Libre Franklin", sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    gap: 100px;
+}
+
+/* Glide styling */
+
+.glide {
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+}
+
+.glidetext {
+    text-align: center;
+    color: white;
+    background-color: #00000061;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.glidetext h1 {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.glidetext p {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.glide__slide {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+  
+.glide__slide img {
+    width: 100vw; 
+    height: 100vh; 
+    border-radius: 10px;
+}
+
+/* Lightbox Styling */
+
+#lbtitle h1{
+    font-family: "Merriweather", serif;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+#lbtitle p{
+    font-family: "Libre Franklin", sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.lbgallery {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    padding: 35px 0;
+}
+
+.lbgallery a {
+    position: relative;
+    width: 325px; 
+    height: 225px;
+    box-shadow: 0 5px 4px #26323814;
+    border-radius: 10px; 
+}
+
+.lbgallery img {
+    width: 325px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.lbgallery img:hover {
+    opacity: 0.9; 
+    transform: scale(1.10); 
+    transition: all 0.3s ease;
+}
+
+.lbgallery a h1{
+    font-family: "Merriweather", serif;
+    font-size: 14px;
+}
+
+.lbgallery a p{
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 12px;
+}
+
+/* parsley styling */
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 4px #26323814;
+    width: 100%;
+    max-width: 400px;
+}
+
+#ptitle {
+    font-family: "Merriweather", serif;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 30px 0 0 0;
+}
+
+label {
+    font-size: 14px;
+    font-family: "Libre Franklin", sans-serif;
+    color: black;
+}
+
+.text {
+    width: 100vw;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 14px;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    color: black;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100vw;
+}
+
+button:hover {
+    background-color: #24a0ed;
+}

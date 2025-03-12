@@ -3,9 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/glide.core.min.css">
+    <link rel="stylesheet" href="assets/css/glide.theme.min.css">
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
     <title>js libraries assignment</title>
 </head>
 <body>
+    <header>
+        <nav id="nav">
+            <ul>
+                <a>Home</a>
+                <a>About Us</a>
+                <a>Gallery</a>
+                <a>Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <!-- glide -->
+    <div class="glide">
+        <div class="glidetext">
+            <h1>Are You Ready to Explore?</h1>
+            <p>Scroll down to go over our itinerary</p>
+        </div>
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide"><img src="/assets/images/24ecb3e4-city-9388-164fb1533df.jpg" alt=""></li>
+            <li class="glide__slide"><img src="/assets/images/northern-lights.webp" alt=""></li>
+            <li class="glide__slide"><img src="/assets/images/St. Regis Bora Bora Resort_bobxr-exterior-aerialview-1580-hor-clsc.jpg.webp" alt=""></li>
+            <li class="glide__slide"><img src="/assets/images/Japan-2107x1406.jpg" alt=""></li>
+            <li class="glide__slide"><img src="/assets/images/most-beautiful-places-in-australia-the-great-ocean-roads-12-apostles-hero.jpg.avif" alt=""></li>
+            <li class="glide__slide"><img src="/assets/images/E02E5080-AD7E-426E-A362376E41B1740B.jpeg" alt=""></li>
+            <li class="glide__slide"><img src="/assets/images/thailand-1-1582543319.profileImage.2x-jpg-webp.webp" alt=""></li>
+          </ul>
+        </div>
+    </div>
+    <!-- lightbox -->
+    <main>
+        <div id="lbtitle">
+            <h1>Gallery</h1>
+            <p>A detailed look into some of our most beautiful destinations in the world</p>
+        </div>
+        <div class="lbgallery">
+            <a href="/assets/images/Tokyo-Japan.jpeg" data-lightbox="gallery" data-title="Tokyo, Japan">
+                <img src="/assets/images/Tokyo-Japan.jpeg" alt="">
+                <h1>Tokyo, Japan</h1>
+                <p>Come and visit tradition and innovation in harmony.</p>
+            </a>
+            <a href="/assets/images/stockholm-sweden-scenic-summer-sunset-view-with-royalty-free-image-1713459498.jpg" data-lightbox="gallery" data-title="Stockholm, Sweden">
+                <img src="/assets/images/stockholm-sweden-scenic-summer-sunset-view-with-royalty-free-image-1713459498.jpg" alt="">
+                <h1>Stockholm, Sweden</h1>
+                <p>Come and visit charming cities and serene nature.</p>
+            </a>
+            <a href="/assets/images/Banff-Alberta.webp" data-lightbox="gallery" data-title="Banff, Alberta">
+                <img src="/assets/images/Banff-Alberta.webp" alt="">
+                <h1>Banff, Alberta</h1>
+                <p> Come and visit breathtaking mountains and crystal lakes.</p>
+            </a>
+        </div>
+        <div class="lbgallery">
+            <a href="/assets/images/St Regis - Bora Bora.webp" data-lightbox="gallery" data-title="St Regis, Bora Bora">
+                <img src="/assets/images/St Regis - Bora Bora.webp" alt="">
+                <h1>St Regis, Bora Bora</h1>
+                <p>Come and visit the jewel of the South Pacific</p>
+            </a>
+            <a href="/assets/images/Thailand.webp" data-lightbox="gallery" data-title="Bangkok, Thailand">
+                <img src="/assets/images/Thailand.webp" alt="">
+                <h1>Bangkok, Thailand</h1>
+                <p>Come and visit vibrant culture and stunning beaches.</p>
+            </a>
+            <a href="/assets/images/Rome.webp" data-lightbox="gallery" data-title="Rome, Italy">
+                <img src="/assets/images/Rome.webp"alt="">
+                <h1>Rome, Italy</h1>
+                <p>Come and visit one of Europe's cultural landmarks</p>
+            </a>
+        </div>
+        <div class="lbgallery">
+            <a href="/assets/images/public.webp" data-lightbox="gallery" data-title="Antalya, Turkey">
+                <img src="/assets/images/public.webp" alt="">
+                <h1>Antalya, Turkey</h1>
+                <p> Come and visit a land of history and beauty.</p>
+            </a>
+            <a href="/assets/images/la.jpeg" data-lightbox="gallery" data-title="Los Angeles, California">
+                <img src="/assets/images/la.jpeg" alt="">
+                <h1>Los Angeles, California</h1>
+                <p>Come and visit sun, cities, and scenic wonders.</p>
+            </a>
+            <a href="/assets/images/kenya.jpeg" data-lightbox="gallery" data-title="Mombasa, Kenya">
+                <img src="/assets/images/kenya.jpeg" alt="">
+                <h1>Mombasa, Kenya</h1>
+                <p>Come and visit Kenya’s coastal paradise.</p>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <h1 id="ptitle">Contact Us</h1>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input class="text" type="text" id="name" name="name" data-parsley-trigger="change" required data-parsley-required-message="Please enter your name."><br><br>
+            <label for="email">Email</label>
+            <input class="text" type="email" id="email" name="email" data-parsley-trigger="change" required data-parsley-required-message="Please enter your email."><br><br>
+            <label for="message">Leave a Message</label><br>
+            <textarea class="text" name="message" rows="4" cols="50" required=""></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
     
+
+
+
+    <script src="/assets/js/glide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2.9.2/dist/parsley.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="/assets/js/main.js" defer></script>
 </body>
 </html>
