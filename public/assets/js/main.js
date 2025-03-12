@@ -13,3 +13,6 @@ lightbox.option({
     'disableScrolling': true
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    $("form").parsley();
+});

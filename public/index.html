@@ -22,7 +22,8 @@
             </ul>
         </nav>
     </header>
-    <!-- glide -->
+    
+    <!-- glide.js hero -->
     <div class="glide">
         <div class="glidetext">
             <h1>Are You Ready to Explore?</h1>
@@ -40,7 +41,9 @@
           </ul>
         </div>
     </div>
-    <!-- lightbox -->
+
+
+    <!-- lightbox.js gallery 1  -->
     <main>
         <div id="lbtitle">
             <h1>Gallery</h1>
@@ -63,6 +66,8 @@
                 <p> Come and visit breathtaking mountains and crystal lakes.</p>
             </a>
         </div>
+
+     <!-- lightbox.js gallery 2  -->
         <div class="lbgallery">
             <a href="/assets/images/St Regis - Bora Bora.webp" data-lightbox="gallery" data-title="St Regis, Bora Bora">
                 <img src="/assets/images/St Regis - Bora Bora.webp" alt="">
@@ -80,6 +85,8 @@
                 <p>Come and visit one of Europe's cultural landmarks</p>
             </a>
         </div>
+        
+        <!-- lightbox.js gallery 3  -->
         <div class="lbgallery">
             <a href="/assets/images/public.webp" data-lightbox="gallery" data-title="Antalya, Turkey">
                 <img src="/assets/images/public.webp" alt="">
@@ -91,22 +98,24 @@
                 <h1>Los Angeles, California</h1>
                 <p>Come and visit sun, cities, and scenic wonders.</p>
             </a>
-            <a href="/assets/images/kenya.jpeg" data-lightbox="gallery" data-title="Mombasa, Kenya">
-                <img src="/assets/images/kenya.jpeg" alt="">
+            <a href="/assets/images/kenya.avif" data-lightbox="gallery" data-title="Mombasa, Kenya">
+                <img src="/assets/images/kenya.avif" alt="">
                 <h1>Mombasa, Kenya</h1>
                 <p>Come and visit Kenya’s coastal paradise.</p>
             </a>
         </div>
     </main>
+
+    <!-- parsley.js form  -->
     <footer>
         <h1 id="ptitle">Contact Us</h1>
         <form action="#" method="POST">
             <label for="name">Name</label>
-            <input class="text" type="text" id="name" name="name" data-parsley-trigger="change" required data-parsley-required-message="Please enter your name."><br><br>
+            <input class="text" type="text" id="name" name="name" data-parsley-trigger="change" data-parsley-required="true"  required data-parsley-required-message="Please enter your name."><br><br>
             <label for="email">Email</label>
-            <input class="text" type="email" id="email" name="email" data-parsley-trigger="change" required data-parsley-required-message="Please enter your email."><br><br>
+            <input class="text" type="email" id="email" name="email" data-parsley-trigger="change" data-parsley-required="true"  required data-parsley-required-message="Please enter your email."><br><br>
             <label for="message">Leave a Message</label><br>
-            <textarea class="text" name="message" rows="4" cols="50" required=""></textarea><br><br>
+            <textarea class="text" name="message" rows="4" cols="50"></textarea><br><br>
             <button type="submit">Submit</button>
         </form>
     </footer>
@@ -115,8 +124,8 @@
 
 
     <script src="/assets/js/glide.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2.9.2/dist/parsley.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2.9.2/dist/parsley.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <script src="/assets/js/main.js" defer></script>
 </body>

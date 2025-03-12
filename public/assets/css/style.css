@@ -117,7 +117,6 @@ header {
 }
 
 .lbgallery img:hover {
-    opacity: 0.9; 
     transform: scale(1.10); 
     transition: all 0.3s ease;
 }
@@ -132,7 +131,7 @@ header {
     font-size: 12px;
 }
 
-/* parsley styling */
+/* parsley form styling */
 
 .form-container {
     background-color: white;
@@ -179,4 +178,13 @@ button {
 
 button:hover {
     background-color: #24a0ed;
+}
+
+.parsley-errors-list {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+    padding: 5px;
+    list-style: none;
 }
