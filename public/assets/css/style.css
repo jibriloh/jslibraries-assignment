@@ -1,4 +1,4 @@
-/* Header styling */
+/* header styling */
 header {
     width: 100vw;
     height: 10vh;
@@ -26,7 +26,7 @@ header {
     gap: 100px;
 }
 
-/* Glide styling */
+/* glide.js tyling */
 
 .glide {
     width: 100vw;
@@ -75,7 +75,7 @@ header {
     border-radius: 10px;
 }
 
-/* Lightbox Styling */
+/* lightbox.js tyling */
 
 #lbtitle h1{
     font-family: "Merriweather", serif;
@@ -131,7 +131,7 @@ header {
     font-size: 12px;
 }
 
-/* parsley form styling */
+/* parsley.js form tyling */
 
 .form-container {
     background-color: white;
